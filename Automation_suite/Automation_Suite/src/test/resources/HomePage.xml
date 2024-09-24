@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation_Suite" >
+
+<listeners>
+    <listener class-name="Listeners.listner"/>
+  </listeners>
+  <!--  <test name="HomePage_Test" preserve-order="true">
+    <classes>
+      <class name="test.PrejoinerTest" />
+     
+    </classes>
+  </test>-->
+  
+  <test name="Close_Pop_Up_Scenarios"  preserve-order="true">
+  <classes>
+    <class name="test.HomePageTest">
+    <methods>
+    <include name="entering_credentials"></include>
+    <include name="close_ec_popup"></include>
+   <include name="close_tutorial_popup"></include> -->
+    
+    </methods></class>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
+
